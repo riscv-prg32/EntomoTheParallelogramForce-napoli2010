@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# The game maps are ASCII grids, not linker maps.
+!assets/maps/*.map
+
+# Entomo build intermediates
+build/
+__pycache__/
+.DS_Store
+dist/store-bundle/

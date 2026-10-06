@@ -1,0 +1,55 @@
+{
+  "abi": "prg32-colophon-1.0",
+  "title": "Entomo: The Parallelogram Force",
+  "subtitle": "Restorative direct action, one rione at a time",
+  "version": "1.0.0",
+  "release_date": "2026-10-06",
+  "developer": {
+    "name": "UniParthenope PRG32",
+    "url": "https://github.com/riscv-prg32/EntomoTheParallelogramForce-napoli2010"
+  },
+  "authors": [
+    {
+      "role": "concept, story, design brief, project lead",
+      "name": "Raffaele Montella - UniParthenope"
+    },
+    {
+      "role": "game design, programming, pixel art, music, maps tooling",
+      "name": "Claude Code (Anthropic)"
+    }
+  ],
+  "license": "MIT",
+  "copyright": "Copyright 2026 PRG32",
+  "acknowledgements": [
+    "To Entomo, the masked civic hero of Naples, and to everyone who cleans a wall that is not theirs.",
+    "A fan tribute: it is not endorsed by Entomo. The game events are fiction; the streets are real.",
+    "Street layout derived from the Tuttocitta Napoli atlas (SEAT Pagine Gialle), plates 35-38. The atlas is not distributed with the game.",
+    "Underground layer built from public descriptions of the Naples subsoil: the Carmignano and Bolla aqueducts, the 2010 municipal census of about 900 cavities, the Linea 1 building sites, the Funicolare Centrale. The course of the galleries between the documented places is generated.",
+    "All graphics are drawn by code and all sound is synthesised by the PRG32 SID-like voices: no photographs, no samples.",
+    "PRG32 framework; build and test tooling adapted from Drumfight Napoli 97 and Galleria2007."
+  ],
+  "content_notice": "Strictly non-violent: no combat, no health, nobody is punished.",
+  "controls": [
+    {
+      "input": "D-pad",
+      "action": "Walk in four directions"
+    },
+    {
+      "input": "A (hold)",
+      "action": "Clean: scrub graffiti, gather rubbish and glass"
+    },
+    {
+      "input": "B (hold)",
+      "action": "Parallelogram Force shield: bounces troublemakers away"
+    },
+    {
+      "input": "SELECT on a manhole or staircase",
+      "action": "Change layer: streets or cavities"
+    },
+    {
+      "input": "START anywhere else",
+      "action": "Tuttocitta atlas overlay"
+    }
+  ],
+  "start_prompt": "Press A to patrol"
+}

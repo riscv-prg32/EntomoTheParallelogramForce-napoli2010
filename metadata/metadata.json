@@ -1,0 +1,54 @@
+{
+  "abi": "prg32-metadata-1.0",
+  "id": "org.riscv-prg32.entomo-napoli2010",
+  "title": "Entomo: The Parallelogram Force",
+  "version": "1.0.0",
+  "summary": "Naples, 2010: a masked civic hero cleans the real streets and the cavities beneath them. No fights, no arrests.",
+  "description": "A tribute to Entomo, the Real Life Super Hero who has patrolled Naples since 2009. In one night, from 22:00 to dawn, restore decoro to four rioni of the historic centre: scrub graffiti off the tuff walls, gather rubbish and broken glass, above ground and below it. The surface map is derived tile by tile from the Tuttocitta street atlas (plates 35-38: Quartieri Spagnoli, Via Toledo, the lower cut of Spaccanapoli, Galleria Umberto I, Maschio Angioino, Molo Beverello), and every atlas square is 16 by 16 game tiles, so the grid reference on screen is the real one. Sixteen manholes and hypogeum staircases lead to a second 128 by 128 map lying exactly beneath the first: aqueduct galleries under the streets, cisterns, a tuff quarry, an air-raid shelter, the metro building sites of 2010 and the funicular tunnel. The game is strictly non-violent: the Parallelogram Force shield only bounces troublemakers away, a contact costs time and nothing else, and when a rione reaches a Decoro Index of 100 its teppistelli and guardiamacchine settle down with a book or a flower pot. Three-layer parallax scrolling in every direction (Vesuvius across the gulf, the playfield, washing lines and stalactites), a 96-colour indexed display, torch-lit caves, the START atlas overlay, an eight-voice SID-like stereo soundtrack with effects panned to where they happen and cave echoes thrown from side to side.",
+  "authors": [
+    {
+      "name": "Raffaele Montella",
+      "affiliation": "UniParthenope"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/riscv-prg32/EntomoTheParallelogramForce-napoli2010",
+  "repository": "https://github.com/riscv-prg32/EntomoTheParallelogramForce-napoli2010",
+  "language": "en",
+  "tags": [
+    "game",
+    "action",
+    "exploration",
+    "non-violent",
+    "naples",
+    "2010s",
+    "scrolling",
+    "parallax",
+    "sid-like",
+    "stereo",
+    "education"
+  ],
+  "created_at": "2026-10-06T00:00:00Z",
+  "updated_at": "2026-10-06T00:00:00Z",
+  "runtime": {
+    "platform": "PRG32",
+    "isa": "RV32IMC",
+    "architectures": [
+      {
+        "id": "esp32c6",
+        "label": "ESP32-C6 hardware",
+        "target": "esp32c6",
+        "display": "ili9341",
+        "isa": "RV32IMC"
+      },
+      {
+        "id": "qemu",
+        "label": "QEMU virtual screen",
+        "target": "esp32c3",
+        "display": "qemu-rgb",
+        "isa": "RV32IMC"
+      }
+    ]
+  },
+  "players": "1"
+}
